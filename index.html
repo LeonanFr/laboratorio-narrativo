@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laboratório Narrativo</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="assets/feather.png" />
+  </head>
+  <body>
+    <div id="onboarding-root"></div>
+
+    <div id="app-root" style="display: none">
+      <header class="topbar">
+        <div class="logo-container">
+          <button class="hamburger-btn" id="hamburger-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="logo-icon">
+            <i class="fa-solid fa-feather-pointed"></i>
+          </div>
+          <div class="logo-text">
+            <span>LABORATÓRIO</span>
+            <span>NARRATIVO</span>
+          </div>
+        </div>
+        <nav class="main-nav" id="main-nav">
+          <a href="#" data-route="dashboard" class="active"
+            ><i class="fa-solid fa-flask"></i>
+            <span id="nav-label-lab">Laboratório</span></a
+          >
+          <a href="#" data-route="collection"
+            ><i class="fa-solid fa-book-journal-whills"></i> Coleção Pessoal</a
+          >
+          <a href="#" data-route="newsletter"
+            ><i class="fa-solid fa-newspaper"></i> Arquivo de Estudos</a
+          >
+          <a href="#" data-route="activities"
+            ><i class="fa-solid fa-magnifying-glass-chart"></i> Atividades</a
+          >
+          <a href="#" data-route="reading"
+            ><i class="fa-solid fa-highlighter"></i> Leitura Crítica</a
+          >
+          <a href="#" data-route="story"
+            ><i class="fa-solid fa-scroll"></i> Arquivo Perdido</a
+          >
+        </nav>
+        <div class="user-profile">
+          <div class="points-display" id="nav-cases">
+            <i
+              class="fa-solid fa-folder-open"
+              style="color: var(--primary)"
+            ></i>
+            <span id="cases-val">0</span>
+          </div>
+          <div class="avatar" id="nav-avatar" data-action="toggle-profile">
+            <i class="fa-solid fa-user"></i>
+          </div>
+        </div>
+      </header>
+      <main class="container" id="app-content"></main>
+    </div>
+
+    <div id="modal-root" class="modal-overlay">
+      <div class="modal-content" id="modal-content"></div>
+    </div>
+
+    <div id="profile-dropdown" class="profile-dropdown"></div>
+
+    <div id="toast-container"></div>
+
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>
