@@ -53,12 +53,11 @@ export const NEWSLETTER_ARTICLES = [
         <strong>abstratas</strong>, que englobam emoções, julgamentos e conclusões.
       </p>
       <p>
-        Quando você lê "ela estava com medo", seu cérebro ativa uma região ligada à <em>categorização</em>, que é uma área 
-        relativamente fria do pensamento lógico. Mas quando você lê "ela recuou até a parede, os olhos fixos na porta que rangia", seu cérebro 
-        ativa regiões <strong>sensoriais e motoras</strong>. Em um nível sutil, você <em>quase</em> sente o recuo, o rangido e a tensão.
+        Quando você lê "ela estava com medo", seu cérebro processa a informação de forma conceitual, ativando áreas ligadas à semântica abstrata. Mas quando você lê "ela recuou até a parede, os olhos fixos na porta que rangia", seu cérebro 
+        ativa o <strong>córtex motor e áreas sensoriais primárias</strong>. Em um nível neurológico sutil, você <em>quase</em> sente o recuo, o rangido e a tensão.
       </p>
       <p>
-        Esse fenômeno é chamado de <strong>Teoria da Simulação Corpórea</strong>. O leitor não apenas entende a cena, ele <strong>simula</strong> a experiência internamente. Mostrar é, essencialmente, uma tecnologia de <strong>imersão</strong>. É isso que transforma um leitor casual em alguém completamente obcecado pela sua história.
+        Esse mecanismo é a base da <strong>Cognição Corporificada (Embodied Cognition)</strong>. Graças aos neurônios-espelho, o leitor não apenas entende a cena intelectualmente, mas o cérebro dele <strong>simula</strong> a experiência fisicamente. Mostrar é, essencialmente, uma tecnologia de <strong>imersão neurológica</strong>. É isso que transforma um leitor casual em alguém completamente obcecado pela sua história.
       </p>
 
       <h2>A arquitetura do mostrar: traduzindo emoção em materialidade</h2>
